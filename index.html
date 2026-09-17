@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#080a12">
+  <meta name="description" content="NOVA — experiencia digital ultra premium, moderna y responsive.">
+  <title>NOVA — Responsive Ultra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="top">
+    <a href="#inicio" class="logo" aria-label="NOVA inicio">
+      <span class="logo-mark"><span></span></span>
+      <span>NOVA</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#inicio" class="active">Inicio</a>
+      <a href="#plataforma">Plataforma</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#planes">Planes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Cambiar tema">☼</button>
+      <a href="#contacto" class="header-cta">Empezar <span>↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#plataforma">Plataforma</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#planes">Planes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="mobile-menu-cta" href="#contacto">Comenzar ahora <span>→</span></a>
+  </div>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-bg-orb orb-a"></div>
+      <div class="hero-bg-orb orb-b"></div>
+
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> NUEVA GENERACIÓN DIGITAL</div>
+        <h1>Diseñá lo que<br><em>todavía no existe.</em></h1>
+        <p class="hero-text">
+          NOVA convierte ideas complejas en experiencias digitales claras,
+          rápidas y memorables. Una plataforma pensada para crear el futuro.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#plataforma" class="btn btn-primary magnetic">Explorar NOVA <span>↗</span></a>
+          <a href="#funciones" class="btn btn-ghost">Ver capacidades <span>↓</span></a>
+        </div>
+
+        <div class="hero-meta">
+          <div><strong>24/7</strong><span>Disponible</span></div>
+          <div><strong>99.9%</strong><span>Estabilidad</span></div>
+          <div><strong>+42K</strong><span>Experiencias</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1" data-tilt>
+        <div class="visual-ring ring-1"></div>
+        <div class="visual-ring ring-2"></div>
+        <div class="visual-ring ring-3"></div>
+        <div class="core">
+          <div class="core-grid"></div>
+          <div class="core-symbol">N</div>
+          <div class="core-scan"></div>
+        </div>
+        <div class="floating-card card-top">
+          <span class="mini-dot"></span>
+          <span>SYSTEM ONLINE</span>
+        </div>
+        <div class="floating-card card-bottom">
+          <span class="mini-icon">✦</span>
+          <div><strong>+38.4%</strong><small>Rendimiento</small></div>
+        </div>
+        <div class="visual-label">01 / FUTURE<br><strong>INTERFACE</strong></div>
+      </div>
+
+      <a href="#plataforma" class="scroll-indicator" aria-label="Desplazarse">
+        <span>SCROLL</span><i></i>
+      </a>
+    </section>
+
+    <section class="marquee-section" aria-label="Características">
+      <div class="marquee-track">
+        <span>CREATIVE SYSTEMS</span><b>✦</b><span>SMART EXPERIENCES</span><b>✦</b>
+        <span>RESPONSIVE BY DESIGN</span><b>✦</b><span>FUTURE READY</span><b>✦</b>
+        <span>CREATIVE SYSTEMS</span><b>✦</b><span>SMART EXPERIENCES</span><b>✦</b>
+        <span>RESPONSIVE BY DESIGN</span><b>✦</b><span>FUTURE READY</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="section platform" id="plataforma">
+      <div class="section-heading reveal">
+        <div>
+          <span class="section-kicker">02 / PLATAFORMA</span>
+          <h2>Una nueva forma de<br><em>pensar digital.</em></h2>
+        </div>
+        <p>Todo lo que necesitás para transformar una idea en una experiencia de alto impacto, desde un solo lugar.</p>
+      </div>
+
+      <div class="platform-grid">
+        <article class="big-panel glass reveal" data-tilt>
+          <div class="panel-top">
+            <span>LIVE ENVIRONMENT</span>
+            <span class="status"><i></i> Activo</span>
+          </div>
+          <div class="dashboard">
+            <aside>
+              <div class="dash-logo">N</div>
+              <span class="side-active"></span>
+              <span></span><span></span><span></span><span></span>
+            </aside>
+            <div class="dash-main">
+              <div class="dash-head"><span>Overview</span><small>17 SEP 2026</small></div>
+              <div class="dash-stats">
+                <div><small>Impact Score</small><strong>94.8</strong><b>+12.4%</b></div>
+                <div><small>Active Users</small><strong>42.8K</strong><b>+8.2%</b></div>
+              </div>
+              <div class="chart">
+                <div class="chart-lines"></div>
+                <svg viewBox="0 0 600 180" preserveAspectRatio="none" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#8b7cff" stop-opacity=".38"/>
+                      <stop offset="1" stop-color="#8b7cff" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0 150 C55 145 65 110 115 125 S180 65 220 100 S285 55 330 83 S395 25 430 62 S500 40 540 48 S575 18 600 28 L600 180 L0 180 Z" fill="url(#chartFill)"/>
+                  <path d="M0 150 C55 145 65 110 115 125 S180 65 220 100 S285 55 330 83 S395 25 430 62 S500 40 540 48 S575 18 600 28" fill="none" stroke="currentColor" stroke-width="3"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="side-panels">
+          <article class="small-panel glass reveal delay-1" data-tilt>
+            <span class="panel-number">01</span>
+            <div class="panel-icon">◈</div>
+            <h3>Inteligencia</h3>
+            <p>Automatización y análisis para tomar mejores decisiones.</p>
+            <a href="#funciones">Descubrir <span>→</span></a>
+          </article>
+          <article class="small-panel glass reveal delay-2" data-tilt>
+            <span class="panel-number">02</span>
+            <div class="panel-icon">⌁</div>
+            <h3>Fluidez</h3>
+            <p>Interfaces rápidas que se adaptan a cada pantalla.</p>
+            <a href="#funciones">Descubrir <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="funciones">
+      <div class="section-heading centered reveal">
+        <span class="section-kicker">03 / CAPACIDADES</span>
+        <h2>Potencia sin<br><em>complicaciones.</em></h2>
+        <p>Una arquitectura diseñada para que cada interacción se sienta intencional.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card glass reveal" data-tilt>
+          <span class="feature-index">01</span><div class="feature-icon">✦</div>
+          <h3>Adaptive UI</h3>
+          <p>Diseño fluido que mantiene la jerarquía visual desde pantallas pequeñas hasta monitores ultrawide.</p>
+          <div class="feature-line"><span></span></div>
+        </article>
+        <article class="feature-card glass reveal delay-1" data-tilt>
+          <span class="feature-index">02</span><div class="feature-icon">◎</div>
+          <h3>Smart Motion</h3>
+          <p>Animaciones suaves, útiles y conscientes del dispositivo para una experiencia más natural.</p>
+          <div class="feature-line"><span></span></div>
+        </article>
+        <article class="feature-card glass reveal delay-2" data-tilt>
+          <span class="feature-index">03</span><div class="feature-icon">⌬</div>
+          <h3>Data Flow</h3>
+          <p>Visualizaciones limpias para transformar información en decisiones rápidas y claras.</p>
+          <div class="feature-line"><span></span></div>
+        </article>
+        <article class="feature-card glass reveal" data-tilt>
+          <span class="feature-index">04</span><div class="feature-icon">↗</div>
+          <h3>Scalable Core</h3>
+          <p>Una base preparada para crecer sin sacrificar velocidad, consistencia ni experiencia.</p>
+          <div class="feature-line"><span></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience" id="experiencia">
+      <div class="experience-copy reveal">
+        <span class="section-kicker">04 / EXPERIENCIA</span>
+        <h2>La tecnología también puede sentirse <em>humana.</em></h2>
+        <p>Combinamos estructura, emoción y movimiento para crear interfaces que guían sin distraer.</p>
+        <div class="progress-list">
+          <div><div><span>Claridad</span><b>96%</b></div><i><span style="width:96%"></span></i></div>
+          <div><div><span>Velocidad</span><b>91%</b></div><i><span style="width:91%"></span></i></div>
+          <div><div><span>Adaptabilidad</span><b>98%</b></div><i><span style="width:98%"></span></i></div>
+        </div>
+      </div>
+      <div class="planet-stage reveal delay-1">
+        <div class="planet-glow"></div>
+        <div class="planet"></div>
+        <div class="planet-ring pr1"></div>
+        <div class="planet-ring pr2"></div>
+        <div class="planet-ring pr3"></div>
+        <div class="planet-node n1">UX</div>
+        <div class="planet-node n2">AI</div>
+        <div class="planet-node n3">∞</div>
+        <span class="stage-label">NOVA CORE / 04</span>
+      </div>
+    </section>
+
+    <section class="section metrics" id="metricas">
+      <div class="metrics-intro reveal">
+        <span class="section-kicker">05 / IMPACTO</span>
+        <h2>Los números<br>también cuentan.</h2>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric reveal"><strong data-counter="42">0</strong><span>K+ experiencias</span></div>
+        <div class="metric reveal delay-1"><strong data-counter="99.9">0</strong><span>% uptime</span></div>
+        <div class="metric reveal delay-2"><strong data-counter="38">0</strong><span>% más velocidad</span></div>
+        <div class="metric reveal"><strong data-counter="24">0</strong><span>/7 disponibilidad</span></div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="planes">
+      <div class="section-heading centered reveal">
+        <span class="section-kicker">06 / PLANES</span>
+        <h2>Elegí cómo querés<br><em>avanzar.</em></h2>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card glass reveal">
+          <span class="price-label">START</span>
+          <h3>Essential</h3>
+          <p>Para proyectos personales y primeras ideas.</p>
+          <div class="price"><small>$</small>0<span>/mes</span></div>
+          <a href="#contacto" class="btn btn-ghost full">Comenzar</a>
+          <ul><li>✓ Espacio de trabajo</li><li>✓ Componentes base</li><li>✓ Soporte comunitario</li></ul>
+        </article>
+        <article class="price-card featured glass reveal delay-1">
+          <div class="popular">MÁS ELEGIDO</div>
+          <span class="price-label">PRO</span>
+          <h3>Momentum</h3>
+          <p>Para equipos que quieren acelerar su crecimiento.</p>
+          <div class="price"><small>$</small>29<span>/mes</span></div>
+          <a href="#contacto" class="btn btn-primary full">Elegir Momentum</a>
+          <ul><li>✓ Todo Essential</li><li>✓ Automatizaciones</li><li>✓ Analytics avanzado</li><li>✓ Soporte prioritario</li></ul>
+        </article>
+        <article class="price-card glass reveal delay-2">
+          <span class="price-label">SCALE</span>
+          <h3>Infinite</h3>
+          <p>Para organizaciones con necesidades avanzadas.</p>
+          <div class="price custom">Custom</div>
+          <a href="#contacto" class="btn btn-ghost full">Hablar con NOVA</a>
+          <ul><li>✓ Arquitectura personalizada</li><li>✓ Integraciones</li><li>✓ Seguridad avanzada</li><li>✓ Atención dedicada</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact-box glass reveal">
+        <div class="contact-copy">
+          <span class="section-kicker">07 / CONTACTO</span>
+          <h2>Tu próxima idea<br>empieza <em>acá.</em></h2>
+          <p>Contanos qué querés construir. NOVA está listo para llevarlo a la siguiente dimensión.</p>
+        </div>
+        <form id="contactForm">
+          <label>Nombre<input type="text" name="name" placeholder="Tu nombre" required></label>
+          <label>Email<input type="email" name="email" placeholder="hola@ejemplo.com" required></label>
+          <label>Proyecto<select name="project"><option>Producto digital</option><option>Landing / Web</option><option>App / SaaS</option><option>Otro</option></select></label>
+          <label>Mensaje<textarea name="message" rows="4" placeholder="Contanos brevemente..." required></textarea></label>
+          <button class="btn btn-primary full" type="submit">Enviar proyecto <span>↗</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#inicio" class="logo"><span class="logo-mark"><span></span></span><span>NOVA</span></a>
+    <p>Digital experiences for what comes next.</p>
+    <div><a href="#inicio">Inicio</a><a href="#funciones">Funciones</a><a href="#contacto">Contacto</a></div>
+    <span>© <span id="year"></span> NOVA</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span>✓</span><div><strong>Mensaje enviado</strong><small>Tu proyecto quedó registrado.</small></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
